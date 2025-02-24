@@ -3,6 +3,8 @@
 ## 📌 Overview  
 This project is a **Retrieval-Augmented Generation (RAG) backend system** built using **Node.js, Express, and Weaviate**. It enables **document ingestion, storage, and querying** via a **vector database** with an intuitive React-based frontend.  
 
+##  Documentation 
+Detailed Documentation: https://drive.google.com/file/d/1XzyfiC2fttJndUwjpIxJ_zOo7ZuYcCim/view?usp=sharing
 ---
 
 ## 🏗️ System Architecture & Workflow  
