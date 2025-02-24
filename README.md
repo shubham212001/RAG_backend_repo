@@ -80,6 +80,23 @@ https://rag-bakend-assignment-deploy-1-77cf.onrender.com
 
 ## 🛠️ Running the Project Locally  
 
+### 📌 **1. API Keys**
+```sh
+Refer to detailed documentation (Link available at starting of README) for actual keys used in the project. (If you intend to run it locally)
+```
+
+### 📌 **1. Weaviate Schema Creation **
+```sh
+Create an empty weaviate collection and replace "Final_Test_CollectionWithoutVectoriser" with your created Schema everywhere in the code.
+Just search using VS code search.
+```
+
+### 📌 **1. If you intent to use already existing schemas **
+```sh
+Refer to the detailed documentation (Since git doesn't allows API pushing in public repos) and get the actual url and key of weaviate and key of OpenAI and replace them in the environment variables (.env)
+Instructions to ..env provided in the further steps.
+```
+
 ### 📌 **1. Clone the Repository**
 ```sh
 git clone https://github.com/shubham212001/RAG_backend_repo
