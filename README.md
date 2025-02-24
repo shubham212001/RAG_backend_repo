@@ -80,6 +80,13 @@ This project is a **Retrieval-Augmented Generation (RAG) backend system** built 
 git clone https://github.com/shubham212001/RAG_backend_repo
 cd RAG_backend_repo
 ```
+Create a `.env` file:
+```env
+PORT=4000
+REACT_APP_WCD_URL=<your-weaviate-url>
+REACT_APP_WCD_API_KEY=<your-weaviate-api-key>
+REACT_APP_OPENAI_KEY=<your-openai-api-key>
+```
 
 ### ⚙️ **2. Backend Setup**
 ```sh
@@ -93,8 +100,11 @@ REACT_APP_WCD_URL=<your-weaviate-url>
 REACT_APP_WCD_API_KEY=<your-weaviate-api-key>
 REACT_APP_OPENAI_KEY=<your-openai-api-key>
 ```
+
+
 Start the backend:
 ```sh
+In backend/app.js – Under app.cors()- Change the origin to http://localhost:3000
 npm start
 ```
 
@@ -109,6 +119,8 @@ const url = "http://localhost:4000";
 ```
 Start the frontend:
 ```sh
+In frontend/src/App.js-
+Change, const url =”http://localhost:4000”
 npm start
 ```
 Access UI at: [http://localhost:3000](http://localhost:3000)  
